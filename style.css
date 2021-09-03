@@ -1,0 +1,118 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(3, 7, 30);   
+}
+div
+{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img
+{
+    height: 75vh;
+    width: 25vw;
+    padding: 3px;
+
+}
+#inputcontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#moviedis
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#val
+{
+    font-family: 'Fira Code',monospace;
+    text-decoration: none;
+    height: 3rem;
+    width: 40rem;
+    border-radius: 12px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+#searchbtn
+{
+    height:3rem ;
+    width: 6rem;
+    border-radius: 5px;
+}
+h1
+{
+    color: rgb(142, 202, 230);
+    font-size: 3rem;
+}
+#srchcontainer
+{
+    display: flex;
+}
+a
+{
+    text-decoration: none;
+    margin-top: 2rem;
+    color: aliceblue;
+}
+img:hover
+{
+    transform: translateX(-10px) translateY(-10px);
+    transition: transform 0.5s;
+    border: 3px solid white;
+    padding:0;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: cadetblue;
+}
+@media (max-width:1350px)
+{
+    img{
+        width: 23vw;
+        height: 55vh;
+    }
+}
+@media (max-width:1150px)
+{
+    img{
+        width: 20vw;
+        height: 45vh;
+    }
+}
+@media (max-width:950px)
+{
+    img{
+        width: 20vw;
+        height: 35vh;
+    }
+}
+@media (max-width:780px)
+{
+    img{
+        width: 17vw;
+        height: 25vh;
+    }
+    #val
+    {
+        width: 20rem;
+    }
+    #searchbtn
+    {
+        width: 3rem;
+    }
+}
+@media (max-width:580px)
+{
+    img{
+        width: 17vw;
+        height: 20vh;
+    }
+}
